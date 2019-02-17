@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="230" height="81" viewBox="0 0 230 81">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 37 42">
+      <image width="37" height="42" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAqCAMAAAADFmLkAAAAjVBMVEUAAADz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/PYslkBAAAALnRSTlMA3gwqYOfixbxLOPXw7NSnhH5qEfnPt7SRhjAZBwXKraCalXpzWFdUQR/AgD4m0a96pwAAARxJREFUOMuN1Nl2gjAQgOEkEjDIIihbFa22bl3m/R+v2U7D8ZSZ/jde8MnRYQiba/fZvDEi0W8BEgItOOgaHL1k2lD3Ehxsr6hagyvC0Jg7lAtMfYHr/e8/pqLLQn/WDvG6qu/7J3KWYCpurIJQPmyCEadw4dDCtDidDHG+lQpDxJi9204C3odRSwKtR41uFGKmAkeJRSng3a0acCQ1oX/70SmOq7NTMa5O/7rX0qkEV5nbnRIhYa0rQkm7YAqIEsM2QFWYNW9Ith3M20cW602lFferQ4+2xol/f0VGqQc12HD2iBwfxDezRaj6PV5bBHXhQI7npyAmR46cQaVGocfBHwpllKZRufKP5sqeunacHy/+q3vVt12vRn/tB6OWuSv0Nas5AAAAAElFTkSuQmCC"/>
+    </pattern>
+  </defs>
+  <g id="App_Store" data-name="App Store" transform="translate(-1069 -660)">
+    <rect id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" width="230" height="81" rx="40" transform="translate(1069 660)" fill="#22233a"/>
+    <g id="Group_1" data-name="Group 1">
+      <rect id="app-store" width="29" height="32" transform="translate(1113 685)" fill="url(#pattern)"/>
+      <text id="Get_It_From_Appstore" data-name="Get It From
+Appstore" transform="translate(1165.515 690.538)" fill="#fff" font-size="13.353" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Get It From</tspan><tspan font-size="19.076"><tspan x="0" y="34.337">Appstore</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

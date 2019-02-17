@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="94.853" height="94.853" viewBox="0 0 94.853 94.853">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4085f6;
+      }
+    </style>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-914.496 -1417.999)">
+    <path id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" class="cls-1" d="M915.96,1461.89l42.426-42.427a5,5,0,0,1,7.071,0l42.426,42.427a5,5,0,0,1,0,7.071l-42.426,42.427a5,5,0,0,1-7.071,0L915.96,1468.96A5,5,0,0,1,915.96,1461.89Z"/>
+    <image id="ui-lock" width="30" height="34" transform="translate(947 1449)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAiCAYAAABIiGl0AAAABHNCSVQICAgIfAhkiAAAAjVJREFUWIW9l81LVUEYxn/3Imn2YYswsmUgUUSLggo0IQtcF9Wi1km0M+yPqGUURQX9ARnUMqhok0QthOiDFu5yZViCgon+Wtxz6ng853RmNB8Y7ny8z/PMnRnemYNKQDmk3lMn/YtJ9a56MESrbmCHeltdthzL6i21fb2MO9XXFYZ5vEo4azJuqM8CTFM8Tbil2g2VClwB7hT0vwFeAA1gEDhewr1bqlwxqx3qTO6fzKtnCmLPJmNZTKtdMUs9WrCEQxXxQwXxIzHGEzmRBxWxaXmY40yEGvcUzL63hvG+Al5PUWyzZOtP5NofgK9VpzDBF+Bjrq+vKLDMeG+u/b6GaYp3/9ACoK2gbyerZ3kEeFTT+HCu3Q/cB6ZX9GbWvUO9qf4q2Ke1YkG9YSadpqbb1fH/YJjHuLota/xkA0xTjJmkzNPA85r7t1441QZcDiTN08rBL5P2IDAMdAZoDKNOBSzTtLrf1QnhgPo9QOcb6lIA4WKBaVouBegsNbT6XsxgAehKfovQDswCm+qIlWWuIvyoME0nNltXLMR4F9BdMd5NK+utuzHASMXYtSClgAOhrYN41ZXvqUbSF3JIDTVOMZAxHogRCF3qFI2Sem3EGndk6ptjjX9G8HZn6nsi+DNN4FME8WSmPhDB/9wEHkcQzwFHgWPA+Qj+WEPdQush1xMhEIMpoLcJzAEXgMUNMF1MvOayt0u/YVdkKKbUPnNvrrRsVa+rb139LRSD+URrNNH+4/UbT0FPgUhAn+MAAAAASUVORK5CYII="/>
+  </g>
+</svg>
