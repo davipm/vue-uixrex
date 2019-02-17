@@ -9,7 +9,7 @@
     </div>
     <div class="container-fluid">
       <div class="screenshot-content">
-        <carousel :items="4" :nav="false">
+        <carousel :responsive="{ 0: {items: 1,nav: false}, 768: {items: 3, nav: false}, 960: {items: 4, nav: false}}" :nav="false">
           <img src="../assets/images/screen-1.png" class="screenshot-img" alt="">
           <img src="../assets/images/screen-2.png" class="screenshot-img" alt="">
           <img src="../assets/images/screen-3.png" class="screenshot-img" style="height: 671px;" alt="">
@@ -74,6 +74,9 @@
     display: inline-block!important;
     bottom: 15px;
     left: 45%;
+    @media (max-width:576px) {
+      left: 35%;
+    }
   }
 
   .btn-screen {
@@ -102,6 +105,12 @@
     &:active {
       color: #FFF;
       background-color: #4085F6;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .screenshot-img {
+      height: auto!important;
     }
   }
 </style>

@@ -2,12 +2,12 @@
   <section class="hero">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-lg-6 col-md-12">
           <div class="img-content">
             <img src="../assets/images/phone.png" class="w-100" alt="">
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6 col-md-12">
           <div class="hero-content">
             <div class="hero-body">
               <h1 class="hero-title">The Best App to Increase</h1>
@@ -69,6 +69,28 @@
     margin-right: 20px;
     &:last-child {
       margin-right: 0;
+    }
+  }
+
+  @media (max-width: 768px){
+    .hero {
+      background: url("../assets/images/hero-bg.png") 52% 101%/264% no-repeat border-box;
+    }
+
+    .hero-content {
+      padding-top: 0;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .hero {
+      background-position: 47% -78px;
+      background-size: 341%;
+    }
+
+    .download-btn {
+      margin-right: 0;
+      margin-bottom: 15px;
     }
   }
 </style>

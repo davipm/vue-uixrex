@@ -8,7 +8,7 @@
       </p>
       <div class="pricing-content">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-lg-4 col-md-6">
             <div class="card">
               <ul class="pricing-list">
                 <li class="pricing-list-title">Basic</li>
@@ -25,7 +25,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4 col-md-6">
             <div class="card">
               <ul class="pricing-list">
                 <li class="pricing-list-title">Professional</li>
@@ -42,7 +42,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4 col-md-6">
             <div class="card">
               <ul class="pricing-list">
                 <li class="pricing-list-title">Business</li>
@@ -152,5 +152,11 @@
     background-color: transparent;
     border: 2px solid #226BE2;
     border-radius: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .card {
+      margin-bottom: 15px;
+    }
   }
 </style>

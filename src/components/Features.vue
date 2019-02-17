@@ -7,12 +7,12 @@
         required preinstalled stitches way  email client, calendar, mapping program.
       </p>
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-lg-4 col-md-12">
           <div class="image-example">
-            <img src="../assets/images/image-example.png" class="w-75 d-block ml-auto" alt="">
+            <img src="../assets/images/image-example.png" class="img-feature" alt="">
           </div>
         </div>
-        <div class="col-md-8">
+        <div class="col-lg-8 col-md-12">
           <div class="content-feature">
             <div class="media" v-for="(item, index) in feature" :key="index">
               <img :src="item.img" class="media-icon mr-3" :alt="item.alt">
@@ -81,6 +81,14 @@
     position: relative;
     padding: 60px 0 200px 0;
     background: #F8F6F6 url("../assets/images/feature-bg.svg") 0 101% no-repeat;
+    @media (max-width: 768px) {
+      background-position: 35% 0;
+      background-size: 350%;
+    }
+    @media (max-width: 576px) {
+      background-position: 35% 0;
+      background-size: 800%;
+    }
   }
 
   .title {
@@ -102,6 +110,16 @@
 
   .content-feature {
     padding-left: 40px;
+  }
+
+  .img-feature {
+    display: block;
+    margin-left: auto;
+    width: 75%;
+    @media (max-width:768px) {
+      width: 50%;
+      margin: 0 auto 40px auto;
+    }
   }
 
   .media {

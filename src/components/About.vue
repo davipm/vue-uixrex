@@ -7,7 +7,7 @@
         required preinstalled stitches way  email client, calendar, mapping program.
       </p>
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-lg-4 col-md-6">
           <div class="card shadow p-3 mb-5 bg-white rounded" @click="$emit('showConsole')">
             <img src="../assets/images/icon-1.svg" class="img-icon" alt="">
             <div class="card-body">
@@ -18,7 +18,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-lg-4 col-md-6">
           <div class="card shadow p-3 mb-5 bg-white rounded">
             <img src="../assets/images/icon-1.svg" class="img-icon" alt="">
             <div class="card-body">
@@ -29,7 +29,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-lg-4 col-md-6">
           <div class="card shadow p-3 mb-5 bg-white rounded">
             <img src="../assets/images/icon-1.svg" class="img-icon" alt="">
             <div class="card-body">
