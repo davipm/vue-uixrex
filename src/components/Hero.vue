@@ -17,12 +17,12 @@
                 <p>mobile device such as a phone/tablet or watch.</p>
               </div>
               <div class="button-download">
-                <a href="#" class="download-btn apple-play">
+                <router-link to="/" class="download-btn apple-play">
                   <img src="../assets/images/app-store.svg" class="img-fluid" alt="">
-                </a>
-                <a href="#" class="download-btn google-play">
+                </router-link>
+                <router-link to="/" class="download-btn google-play">
                   <img src="../assets/images/play-store.png" class="img-fluid" alt="">
-                </a>
+                </router-link>
               </div>
             </div>
           </div>

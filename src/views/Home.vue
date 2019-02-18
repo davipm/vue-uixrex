@@ -5,6 +5,7 @@
     <Feature/>
     <Pricing/>
     <Screenshot/>
+    <Clients/>
   </div>
 </template>
 
@@ -15,6 +16,7 @@ import About from '../components/About'
 import Feature from '../components/Features'
 import Pricing from '../components/Pricing'
 import Screenshot from '../components/Screenshot'
+import Clients from '../components/Clients'
 
 export default {
   name: 'home',
@@ -23,7 +25,8 @@ export default {
     About,
     Feature,
     Pricing,
-    Screenshot
+    Screenshot,
+    Clients
   },
 
   methods: {

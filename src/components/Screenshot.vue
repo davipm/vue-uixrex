@@ -40,6 +40,7 @@
   .screenshot {
     display: block;
     position: relative;
+    margin-bottom: 30px;
     padding: 60px 0;
   }
 
