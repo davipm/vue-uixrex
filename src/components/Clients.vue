@@ -178,4 +178,10 @@
     position: relative;
     bottom: 65px;
   }
+
+  @media (max-width: 768px) {
+    .card {
+      max-height: none;
+    }
+  }
 </style>
