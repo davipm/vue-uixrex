@@ -5,7 +5,7 @@
         <div class="col-md-6">
           <div class="footer-content">
             <h5 class="footer-title">
-              Copyright © 2018 UIXREX, All rights Reserved.
+              Copyright © {{ getFullYear }} UIXREX, All rights Reserved.
             </h5>
           </div>
         </div>
@@ -31,7 +31,12 @@
 
 <script>
   export default {
-    name: 'Footer'
+    name: 'Footer',
+    computed: {
+      getFullYear() {
+        return new Date().getFullYear();
+      }
+    }
   }
 </script>
 
