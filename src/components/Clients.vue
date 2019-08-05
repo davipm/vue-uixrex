@@ -4,116 +4,14 @@
       <h3 class="title">SOME TALK OF OUR CLIENTS</h3>
       <div class="clients-slide">
         <carousel :responsive="{ 0: {items: 1,nav: false}, 768: {items: 1, nav: false}, 960: {items: 2, nav: false}}" :nav="false">
-          <div class="card">
-            <img src="../assets/images/client-1.png" class="card-client-thumb" alt="">
+          <div class="card" v-for="(item, index) in clients" :key="index">
+            <img :src="item.img" class="card-client-thumb" :alt="item.alt">
             <div class="card-body">
               <div class="card-info">
-                <h6 class="client-name">OLIVER GOMEZ</h6>
-                <p class="client-position">CEO of google</p>
+                <h6 class="client-name">{{ item.name }}</h6>
+                <p class="client-position">{{ item.position }}</p>
               </div>
-              <p class="card-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s,good.
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="../assets/images/client-2.png" class="card-client-thumb" alt="">
-            <div class="card-body">
-              <div class="card-info">
-                <h6 class="client-name">OLIVER GOMEZ</h6>
-                <p class="client-position">CEO of google</p>
-              </div>
-              <p class="card-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s,good.
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="../assets/images/client-1.png" class="card-client-thumb" alt="">
-            <div class="card-body">
-              <div class="card-info">
-                <h6 class="client-name">OLIVER GOMEZ</h6>
-                <p class="client-position">CEO of google</p>
-              </div>
-              <p class="card-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s,good.
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="../assets/images/client-2.png" class="card-client-thumb" alt="">
-            <div class="card-body">
-              <div class="card-info">
-                <h6 class="client-name">OLIVER GOMEZ</h6>
-                <p class="client-position">CEO of google</p>
-              </div>
-              <p class="card-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s,good.
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="../assets/images/client-1.png" class="card-client-thumb" alt="">
-            <div class="card-body">
-              <div class="card-info">
-                <h6 class="client-name">OLIVER GOMEZ</h6>
-                <p class="client-position">CEO of google</p>
-              </div>
-              <p class="card-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s,good.
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="../assets/images/client-2.png" class="card-client-thumb" alt="">
-            <div class="card-body">
-              <div class="card-info">
-                <h6 class="client-name">OLIVER GOMEZ</h6>
-                <p class="client-position">CEO of google</p>
-              </div>
-              <p class="card-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s,good.
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="../assets/images/client-1.png" class="card-client-thumb" alt="">
-            <div class="card-body">
-              <div class="card-info">
-                <h6 class="client-name">OLIVER GOMEZ</h6>
-                <p class="client-position">CEO of google</p>
-              </div>
-              <p class="card-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s,good.
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="../assets/images/client-2.png" class="card-client-thumb" alt="">
-            <div class="card-body">
-              <div class="card-info">
-                <h6 class="client-name">OLIVER GOMEZ</h6>
-                <p class="client-position">CEO of google</p>
-              </div>
-              <p class="card-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s,good.
-              </p>
+              <p class="card-text">{{ item.text }}</p>
             </div>
           </div>
         </carousel>
@@ -124,10 +22,73 @@
 
 <script>
   import carousel from 'vue-owl-carousel'
+
   export default {
     name: 'Clients',
+
     components: {
       carousel,
+    },
+
+    data() {
+      return {
+        clients: [
+          {
+            img: require('../assets/images/client-1.png'),
+            alt: 'Image',
+            name: 'OLIVER GOMEZ',
+            position: 'CEO of google',
+            text: `Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,good.`,
+          },
+          {
+            img: require('../assets/images/client-2.png'),
+            alt: 'Image',
+            name: 'OLIVER GOMEZ',
+            position: 'CEO of google',
+            text: `Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,good.`,
+          },
+          {
+            img: require('../assets/images/client-1.png'),
+            alt: 'Image',
+            name: 'OLIVER GOMEZ',
+            position: 'CEO of google',
+            text: `Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,good.`,
+          },
+          {
+            img: require('../assets/images/client-1.png'),
+            alt: 'Image',
+            name: 'OLIVER GOMEZ',
+            position: 'CEO of google',
+            text: `Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,good.`,
+          },
+          {
+            img: require('../assets/images/client-1.png'),
+            alt: 'Image',
+            name: 'OLIVER GOMEZ',
+            position: 'CEO of google',
+            text: `Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,good.`,
+          },
+          {
+            img: require('../assets/images/client-1.png'),
+            alt: 'Image',
+            name: 'OLIVER GOMEZ',
+            position: 'CEO of google',
+            text: `Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,good.`,
+          },
+        ],
+      }
     }
   }
 </script>

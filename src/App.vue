@@ -1,7 +1,10 @@
 <template>
   <div id="app">
+    <!-- header component -->
     <Header/>
+    <!-- content render -->
     <router-view/>
+    <!-- footer component -->
     <Footer/>
   </div>
 </template>
